@@ -7,9 +7,9 @@ import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class GoThrough {
+public class goThrough {
     @Before
-    public void openStoreWebssite() {
+    public void openStoreWebsite() {
         open("https://automationteststore.com/");
     }
 
